@@ -1,6 +1,7 @@
 body {
   margin: 0 auto;
   max-width: 900px;
+  box-sizing: border-box;
 }
 nav ul {
   display: flex;
@@ -12,11 +13,17 @@ nav ul {
 }
 
 nav ul li {
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 
 nav a {
   text-decoration: none;
+  padding: 1rem;
+  display: inline-block;
+  color: purple;
+}
+nav a.active {
+  background-color: #eee;
 }
 .main {
   padding: 1rem;
