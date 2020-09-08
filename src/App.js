@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route, NavLink as Link } from "react-router-dom";
-import Dashboard from "./Dashboard";
+import Dashboard, { Profile, Orders } from "./Dashboard";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
             </Link>
           </li>
           <li>
-            <Link to="/dashboard" activeClassName="active">
+            <Link to="/dashboard/profile" activeClassName="active">
               Dashboard
             </Link>
           </li>
@@ -27,8 +27,9 @@ function App() {
       <div className="main">
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/about" element={<About />}></Route>
-          <Route path="/dashboard" element={<Dashboard />}></Route>
+
+          <Route path="about" element={<About />}></Route>
+          <Route path="dashboard/*" element={<Dashboard />}></Route>
           <Route path="*" element={<NotFound />}></Route>
         </Routes>
       </div>

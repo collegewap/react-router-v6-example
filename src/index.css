@@ -28,3 +28,17 @@ nav a.active {
 .main {
   padding: 1rem;
 }
+
+.main ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.main ul li {
+  margin-left: 10px;
+}
+
+.dashboard {
+  padding: 1rem;
+}
