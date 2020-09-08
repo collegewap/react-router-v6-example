@@ -27,13 +27,13 @@ const Dashboard = () => {
 };
 
 export const Profile = () => {
-  return <div>Profile</div>;
+  return <h2>Profile</h2>;
 };
 export const Orders = () => {
-  return <div>Orders</div>;
+  return <h2>Orders</h2>;
 };
 export const Quotes = () => {
-  return <div>Quotes</div>;
+  return <h2>Quotes</h2>;
 };
 
 export default Dashboard;

@@ -1,6 +1,6 @@
 import React from "react";
-import { Routes, Route, NavLink as Link } from "react-router-dom";
-import Dashboard, { Profile, Orders } from "./Dashboard";
+import { NavLink as Link, Route, Routes } from "react-router-dom";
+import Dashboard from "./Dashboard";
 
 function App() {
   return (

@@ -36,9 +36,9 @@ nav a.active {
   padding: 0;
 }
 .main ul li {
-  margin-left: 10px;
+  padding-right: 1rem;
 }
 
 .dashboard {
-  padding: 1rem;
+  padding: 1rem 0;
 }
