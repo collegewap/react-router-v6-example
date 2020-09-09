@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Link, Route, useParams, useNavigate } from "react-router-dom";
+import { Link, Route, Routes, useNavigate, useParams } from "react-router-dom";
 
 const Dashboard = () => {
   return (
