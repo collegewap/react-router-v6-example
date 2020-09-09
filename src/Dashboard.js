@@ -6,7 +6,7 @@ const Dashboard = () => {
     <div>
       <ul>
         <li>
-          <Link to="profile">Profile</Link>
+          <Link to="">Profile</Link>
         </li>
         <li>
           <Link to="orders">Orders</Link>
@@ -17,7 +17,8 @@ const Dashboard = () => {
       </ul>
       <div className="dashboard">
         <Routes>
-          <Route path="profile" element={<Profile />}></Route>
+          {/* Index route */}
+          <Route path="/" element={<Profile />}></Route>
           <Route path="orders" element={<Orders />}></Route>
           <Route path="quotes" element={<Quotes />}></Route>
           <Route path="order_details/:orderId" element={<OrderDetails />} />

@@ -13,7 +13,7 @@ function App() {
             </Link>
           </li>
           <li>
-            <Link to="/dashboard/profile" activeClassName="active">
+            <Link to="/dashboard" activeClassName="active">
               Dashboard
             </Link>
           </li>
